@@ -1,0 +1,94 @@
+* {
+    background-color: green;
+    margin:0;
+}
+
+.body {
+    font-family: cursive;
+}
+.container {
+    background-color:black ;
+    min-height: calc(100vh - 30vh);
+
+}
+.money-feature-container {
+    height: 70vh;
+    margin: 0;
+
+}
+.money-feature-desc {
+    font-size: ;
+}
+.money-image{
+    position: relative;
+}
+
+
+.money {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    border-radius: 200px;
+    align-items: center;
+    left: 550px;
+    background-color: green;
+    border: solid green;
+    top: 50%;
+}
+.money-feature-desc {
+    font-size: 170px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.073);
+    border-radius: 70px;
+    height: 200px;
+    left: 400px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+
+}
+.money-feature-title {
+    font-size: 5rem;
+    background-color: rgba(255, 255, 255, 0.073);
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    left: 433px;
+    top: 80%;
+
+}
+.money-list-container-image-2{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    right: 50px;
+    position: absolute;
+    top: 90%;
+    border: solid 10px rgba(248, 248, 255, 0.137);
+}
+.money-list-container-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 200px;
+    position: absolute;
+    top: 90%;
+    left: 50px;
+    display: flex;
+    border: solid 10px rgba(248, 248, 255, 0.137);
+}
+.arrow {
+    height: 0px;
+}
+.money-list-container-title {
+    font-family: fantasy;
+    font-size: 3rem;
+    position: absolute;
+    top: 110%;
+    left: 30%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    width: 550px;
+    border-radius: 30px;
+}
